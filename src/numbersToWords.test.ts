@@ -1,9 +1,9 @@
 import {NumbersToWords} from './numbersToWords';
 
-describe('Numbers To Wordsre', () => {
+describe('Number To Words', () => {
     it('works', () => {
-        const calculator = new NumbersToWords();
-        expect(calculator.works()).toBe(true);
+        const numberToWords = new NumbersToWords();
+        expect(numberToWords.parse(0)).toBe('');
 
     });
 });

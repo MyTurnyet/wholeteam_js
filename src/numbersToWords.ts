@@ -1,6 +1,6 @@
 export class NumbersToWords {
 
-    works(): boolean {
-        return true;
+    parse(number: number): string {
+        return '';
     }
 }
