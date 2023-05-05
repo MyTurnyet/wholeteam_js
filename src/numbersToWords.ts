@@ -1,4 +1,4 @@
-export class Calculator {
+export class NumbersToWords {
 
     works(): boolean {
         return true;
